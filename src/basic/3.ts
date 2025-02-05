@@ -2,7 +2,8 @@
 //union type
 
 
-let mixedValue: string | number;
+let age: number | string = 5;
+let status: "enable" | "disable" = "disable";
 
-type DisableOrEnable = "disable" | "enable";
-let value: DisableOrEnable;
+console.log(age);
+console.log(status);
